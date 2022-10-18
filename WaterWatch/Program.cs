@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WaterWatch.Data;
-using System.Data.SqlClient;
 using Npgsql;
+using WaterWatch.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +15,7 @@ npgConnStrBuilder.Password = builder.Configuration["DbPassword"];
 
 builder.Services.AddDbContext<DataContext>(options => options.UseNpgsql(npgConnStrBuilder.ConnectionString)); 
 builder.Services.AddScoped<IDataContext>(provider => provider.GetService<DataContext>());
-
+builder.Services.AddScoped<IWaterConsumptionRepository,WaterConsumptionRepository>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

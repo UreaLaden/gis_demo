@@ -40,3 +40,4 @@ D:\Portfolio\gis_app\WaterWatch\WaterWatch\bin\Debug\net6.0\runtimes\win-x86\nat
 D:\Portfolio\gis_app\WaterWatch\WaterWatch\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Portfolio\gis_app\WaterWatch\WaterWatch\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Portfolio\gis_app\WaterWatch\WaterWatch\obj\Debug\net6.0\WaterWatch.csproj.CopyComplete
+D:\Portfolio\gis_app\WaterWatch\WaterWatch\bin\Debug\net6.0\Newtonsoft.Json.dll
